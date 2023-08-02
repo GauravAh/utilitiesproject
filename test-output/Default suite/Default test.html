@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jul 21 07:40:33 IST 2023</td>
+<td>Started on:</td><td>Wed Aug 02 07:47:35 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>18 seconds (18387 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (781 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,32 +75,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='AmazonTestCasePackage.HomePage.setupBrowser()'><b>setupBrowser</b><br>Test class: AmazonTestCasePackage.HomePage</td>
-<td><div><pre>org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65182/devtools/browser/f4e2bf82-379c-45ee-8d24-72f06cc216d1
-Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
-	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
-	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
-	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
-	at java.base/java.util.Optional.map(Optional.java:260)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:71)
-	at AmazonBasePackage.BaseClass.setupBrowser(BaseClass.java:17)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
-	at org.testng.TestRunner.run(TestRunner.java:596)
+<td title='AmazonCartPackage.AmazonCreateAcc.setupBrowser()'><b>setupBrowser</b><br>Test class: AmazonCartPackage.AmazonCreateAcc</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method setupBrowser but has not been marked @Optional or defined
+in C:\Users\gaurav\AppData\Local\Temp\testng-eclipse-2106681064\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:660)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:300)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
@@ -114,32 +102,20 @@ Driver info: driver.version: ChromeDriver
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1991371192", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1991371192'><pre>org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65182/devtools/browser/f4e2bf82-379c-45ee-8d24-72f06cc216d1
-Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
-	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
-	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
-	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
-	at java.base/java.util.Optional.map(Optional.java:260)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:71)
-	at AmazonBasePackage.BaseClass.setupBrowser(BaseClass.java:17)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
-	at org.testng.TestRunner.run(TestRunner.java:596)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1062186835", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1062186835'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method setupBrowser but has not been marked @Optional or defined
+in C:\Users\gaurav\AppData\Local\Temp\testng-eclipse-2106681064\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:660)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:300)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
@@ -154,8 +130,8 @@ Driver info: driver.version: ChromeDriver
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>18</td>
-<td>AmazonTestCasePackage.HomePage@4dbb42b7</td></tr>
+<td>-1690942655</td>
+<td>AmazonCartPackage.AmazonCreateAcc@4d5650ae</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -165,32 +141,20 @@ Driver info: driver.version: ChromeDriver
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='AmazonTestCasePackage.HomePage.verifyTitle()'><b>verifyTitle</b><br>Test class: AmazonTestCasePackage.HomePage</td>
-<td><div><pre>org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65182/devtools/browser/f4e2bf82-379c-45ee-8d24-72f06cc216d1
-Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
-	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
-	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
-	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
-	at java.base/java.util.Optional.map(Optional.java:260)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:71)
-	at AmazonBasePackage.BaseClass.setupBrowser(BaseClass.java:17)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
-	at org.testng.TestRunner.run(TestRunner.java:596)
+<td title='AmazonCartPackage.AmazonCreateAcc.readAccount()'><b>readAccount</b><br>Test class: AmazonCartPackage.AmazonCreateAcc</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method setupBrowser but has not been marked @Optional or defined
+in C:\Users\gaurav\AppData\Local\Temp\testng-eclipse-2106681064\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:660)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:300)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
@@ -204,32 +168,20 @@ Driver info: driver.version: ChromeDriver
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1640458320", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1640458320'><pre>org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:65182/devtools/browser/f4e2bf82-379c-45ee-8d24-72f06cc216d1
-Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
-	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
-	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:78)
-	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
-	at java.base/java.util.Optional.map(Optional.java:260)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:82)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:71)
-	at AmazonBasePackage.BaseClass.setupBrowser(BaseClass.java:17)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
-	at org.testng.TestRunner.run(TestRunner.java:596)
+</pre></div><a href='#' onClick='toggleBox("stack-trace821576394", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace821576394'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method setupBrowser but has not been marked @Optional or defined
+in C:\Users\gaurav\AppData\Local\Temp\testng-eclipse-2106681064\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:660)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:300)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
@@ -245,7 +197,7 @@ Driver info: driver.version: ChromeDriver
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>AmazonTestCasePackage.HomePage@4dbb42b7</td></tr>
+<td>AmazonCartPackage.AmazonCreateAcc@4d5650ae</td></tr>
 </table><p>
 </body>
 </html>
